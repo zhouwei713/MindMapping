@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-18T15:17:39.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="0_FAURNtnhRn6TQEciDN" version="16.0.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-18T15:18:04.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="q-ZMgQx6gYzTxpqY4IHm" version="16.0.0" type="github" pages="5">
   <diagram id="fuctRVu0iIT9ArRBHX20" name="redis主从">
     <mxGraphModel dx="536" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -336,13 +336,13 @@
           <mxGeometry width="570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d4V3Z14isYLjdhLvQF1o-23" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="d4V3Z14isYLjdhLvQF1o-22">
-          <mxGeometry width="152" height="40" as="geometry">
-            <mxRectangle width="152" height="40" as="alternateBounds" />
+          <mxGeometry width="110" height="40" as="geometry">
+            <mxRectangle width="110" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d4V3Z14isYLjdhLvQF1o-24" value="RDB" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="d4V3Z14isYLjdhLvQF1o-22">
-          <mxGeometry x="152" width="152" height="40" as="geometry">
-            <mxRectangle width="152" height="40" as="alternateBounds" />
+          <mxGeometry x="110" width="194" height="40" as="geometry">
+            <mxRectangle width="194" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d4V3Z14isYLjdhLvQF1o-25" value="AOF" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="d4V3Z14isYLjdhLvQF1o-22">
@@ -354,13 +354,13 @@
           <mxGeometry y="40" width="570" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d4V3Z14isYLjdhLvQF1o-27" value="优点" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="d4V3Z14isYLjdhLvQF1o-26">
-          <mxGeometry width="152" height="60" as="geometry">
-            <mxRectangle width="152" height="60" as="alternateBounds" />
+          <mxGeometry width="110" height="60" as="geometry">
+            <mxRectangle width="110" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d4V3Z14isYLjdhLvQF1o-28" value="相比AOF，效率更高" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="d4V3Z14isYLjdhLvQF1o-26">
-          <mxGeometry x="152" width="152" height="60" as="geometry">
-            <mxRectangle width="152" height="60" as="alternateBounds" />
+          <mxGeometry x="110" width="194" height="60" as="geometry">
+            <mxRectangle width="194" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d4V3Z14isYLjdhLvQF1o-29" value="&lt;font style=&quot;font-size: 16px&quot;&gt;几乎是实时的持久化，误操作之后，只要没有rewrite，就可以恢复&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="d4V3Z14isYLjdhLvQF1o-26">
@@ -372,13 +372,13 @@
           <mxGeometry y="100" width="570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d4V3Z14isYLjdhLvQF1o-31" value="缺点" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="d4V3Z14isYLjdhLvQF1o-30">
-          <mxGeometry width="152" height="40" as="geometry">
-            <mxRectangle width="152" height="40" as="alternateBounds" />
+          <mxGeometry width="110" height="40" as="geometry">
+            <mxRectangle width="110" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d4V3Z14isYLjdhLvQF1o-32" value="无法保证数据的完整性" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="d4V3Z14isYLjdhLvQF1o-30">
-          <mxGeometry x="152" width="152" height="40" as="geometry">
-            <mxRectangle width="152" height="40" as="alternateBounds" />
+          <mxGeometry x="110" width="194" height="40" as="geometry">
+            <mxRectangle width="194" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d4V3Z14isYLjdhLvQF1o-33" value="文件占用空间大，恢复速度慢" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="d4V3Z14isYLjdhLvQF1o-30">
